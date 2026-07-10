@@ -35,7 +35,6 @@ const operators = ["+", "-", "*", "/", "%"]
 
         if(operators.includes(value) && operators.includes(lastchar)){
             alert("cannot enter two operators together");
-
         }
         else{
             display.value += value;
